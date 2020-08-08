@@ -9,12 +9,13 @@ import Portfolio from './components/Portfolio'
 
 function App() {
   return (
-    <Router  >
-      <Link style={{margin:'20px'}} to='/'>Home</Link>
-      <Link  style={{margin:'20px'}} to='/about'>About</Link>
-      <Link  style={{margin:'20px'}} to='/contact'>Contact</Link>
-      <Link style={{margin:'20px'}} to='/services'>services</Link>
-      <Link style={{margin:'20px'}} to='/services'>services</Link>
+  
+    <Router   >
+      <Link style={{margin:'60px'}} to='/'>Home</Link>
+      <Link  style={{margin:'60px'}} to='/about'>About</Link>
+      <Link  style={{margin:'60px'}} to='/contact'>Contact</Link>
+      <Link style={{margin:'60px'}} to='/services'>Services</Link>
+      <Link style={{margin:'60px'}} to='/portfolio'>Portfolio</Link>
 
 
 
@@ -26,6 +27,7 @@ function App() {
 
       
     </Router>
+    
   );
 }
 
